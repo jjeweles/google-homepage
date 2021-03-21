@@ -24,7 +24,7 @@ main {
     text-align: center;
 }
 
-#topNav {
+.topNav {
     margin-top: 1%;
     overflow: hidden;
     font-family: sans-serif;
@@ -70,7 +70,7 @@ form {
     box-sizing: content-box;
 }
 
-#bottomNav {
+.bottomNav {
     background-color: #f2f2f2;
     overflow: hidden;
     bottom: 0;
@@ -79,12 +79,17 @@ form {
     position: absolute;
 }
 
-.rightside {
+.centerText {
+    float: center;
+    margin-left: 30%;
+}
+
+.rightSide {
     float: right;
     margin-right:30px;
 }
 
-#bottomNav a {
+.bottomNav a {
     margin: 20px 10px;
     font-size: 14px;
     color: #5f6368;
