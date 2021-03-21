@@ -1,56 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google Homepage</title>
-    <link rel="stylesheet" href="app.css">
-</head>
+<html>
 
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Store</a></li>
-            </ul>
-            <ul>
-                <li><a href="#">Gmail</a></li>
-                <li><a href="#">Store</a></li>
-            </ul>
-        </nav>
+        <title>Google Homepage</title>
+        <link rel="favicon" href="https://www.google.com/favicon.ico">
+        <link rel="stylesheet" href="app.css">
     </header>
+
+    <ul id="topNav">
+        <li>
+            <a href>About</a>
+        </li>
+        <li>
+            <a href=#>Store</a>
+        </li>
+        <div class="topNavRight">
+            <li>
+                <a href>Gmail</a>
+            </li>
+            <li>
+                <a href>Images</a>
+            </li>
+        </div>
+    </ul>
+    </div>
     <main>
-        <section>
-            <img src="googlelogo_color.png" alt="Google Logo">
-        </section>
-        <section>
-            <input type="text" placeholder="Search">
-            <button>Google Search</button>
-            <button>I'm Feeling Lucky</button>
-        </section>
+        <div class="google">
+            <img src="googlelogo_color.png">
+        </div>
+        <form id="search">
+            <input type="search" id="searchBox">
+            <input type="button" class="button" value="Google Search">
+            <input type="button" class="button" value="I'm Feeling Lucky">
+        </form>
+        </form>
     </main>
+
     <footer>
-        <ul>
-            <li>
-                <a href="#">Advertising</a>
-            </li>
-            <li>
-                <a href="#">Business</a>
-            </li>
-            <li>
-                <a href="#">How search works</a>
-            </li>
-        </ul>
-        <a href="#">Carbon neutral since 2007</a>
-        <ul>
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Settings</a></li>
+        <ul id="bottomNav">
+            <li><a href="">Advertising</a></li>
+            <li><a href="">Business</a></li>
+            <li><a href="">How Search works</a></li>
+            <div class="rightside">
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Terms</a></li>
+                <li><a href="">Settings</a></li>
+            </div>
         </ul>
     </footer>
 </body>
+
 
 </html>
